@@ -1,0 +1,73 @@
+@import 'button.css';
+
+@media screen and (max-width: 1440px){
+    .application-tagline{
+        margin-bottom: 100px;
+    }
+    .end{
+    	margin-top: 20px;
+    	margin-bottom: 20px;
+    }
+}
+@media screen and (max-width: 1024px){
+    .application-tagline{
+        margin-bottom: 50px;
+    }
+}
+@media screen and (max-width: 768px){
+    .application-tagline > h2{
+        font-size: 0.5em;
+    }
+    .tip-button{
+		margin-left: -65px;
+	}
+}
+@media screen and (max-width: 425px){
+    .application-tagline > h2{
+        font-size: 0.25em;
+    }
+    .end{
+    	display: none;
+    }
+    .term-of-use--content > p, .term-of-use--content > span, .term-of-use--content > ol > li{
+    	font-size: 12px;
+    }
+    .stepper-container{
+    	width: 100%;
+    	margin-top: 50px;
+    }
+    .ayo-beli{
+        font-size: 20pt;
+    }
+}
+@media screen and (min-width: 426px){
+	.end-mobile{
+		display: none;
+	}
+	.main-form-block > .end-form{
+		display: none;
+	}
+	.stepper-container{
+		margin-top: -100px;
+	}
+    .promise{
+        font-size: 20pt;
+    }
+}
+@media screen and (max-width: 375px){
+	.application-tagline > p{
+		font-size: 2rem;
+	}
+	.nav-end{
+		display: none;
+	}
+}
+@media screen and (max-width: 320px){
+	.application-tagline > h2{
+		font-size: 0.2em;
+	}
+    .main-from{
+        margin-right: 10px;
+    }
+}
+
