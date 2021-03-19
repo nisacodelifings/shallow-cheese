@@ -39,6 +39,9 @@
     .ayo-beli{
         font-size: 20pt;
     }
+    .app-footer{
+        display: none;
+    }
 }
 @media screen and (min-width: 426px){
 	.end-mobile{
