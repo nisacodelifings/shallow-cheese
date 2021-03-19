@@ -26,9 +26,6 @@
     .application-tagline > h2{
         font-size: 0.25em;
     }
-    .term-of-use--content > p, .term-of-use--content > span, .term-of-use--content > ol > li{
-    	font-size: 12px;
-    }
     .stepper-container{
     	width: 100%;
     	margin-top: 50px;
@@ -36,7 +33,7 @@
     .ayo-beli{
         font-size: 20pt;
     }
-    .dekstop{
+    .foot{
         display: none;
     }
 }
