@@ -53,6 +53,9 @@
     .promise{
         font-size: 20pt;
     }
+    .download{
+        display: none;
+    }
 }
 @media screen and (max-width: 375px){
 	.application-tagline > p{
