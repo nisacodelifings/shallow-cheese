@@ -26,9 +26,6 @@
     .application-tagline > h2{
         font-size: 0.25em;
     }
-    .end{
-    	display: none;
-    }
     .term-of-use--content > p, .term-of-use--content > span, .term-of-use--content > ol > li{
     	font-size: 12px;
     }
@@ -39,7 +36,7 @@
     .ayo-beli{
         font-size: 20pt;
     }
-    .app-footer{
+    .dekstop{
         display: none;
     }
 }
